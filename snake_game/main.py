@@ -40,8 +40,8 @@ body_parts = []
 # Funkce
 def move():
     if head.direction == "up":
-        y = head.ycor()                                                 # načte se současná pozice a uloží se do y
-        head.sety(y + 20)                                               # aby to šlo o 20 nahoru, nastav y + 20
+        y = head.ycor()
+        head.sety(y + 20)
 
     if head.direction == "down":
         y = head.ycor()
