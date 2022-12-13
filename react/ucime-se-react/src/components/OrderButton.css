@@ -1,0 +1,9 @@
+.btn {
+    background-color: rgb(175, 75, 241);
+    border-radius: 999px;
+    color: white;
+    cursor: pointer;                            /* když přes to projedeme, tak se změní kurzor na ruku */
+    font-size: 16px;
+    border: none;
+    padding: 5px 15px;
+}
